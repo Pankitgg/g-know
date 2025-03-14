@@ -5,6 +5,16 @@
 ```
 [plugin:vite:css] [postcss] Unknown browser query basedir=$(dirname " $ （ hO " $ | sed 's'. Maybe you are using old Browserslist or made typo in query. 
 ```
+<b>问题原因</b>
+<b>问题分析</b>
+<b>前端开发环境工具链</b>
+		在开发环境，vue会通过vite，实时打包成es-module。其中js文件不需要配置，而vue，css，less，ts等等文件，都需要通过<b>vite的插件</b>或者<b>其他工具</b>来实现插入到已经打包成es-module的文件中。最后通过浏览器进行渲染。PostCSS 就是一种用 JavaScript 工具和插件转换 CSS 代码的工具。
+		<b>分析报错内容</b>
+		从报错来看错误是由 PostCSS 的 BrowsersIist 配置引起的 。
+		BrowsersIist是用于指定目标浏览器范围的工具，用于自动添加CSS前缀和进行相关的浏览器兼容性处理。根据错误消息，可能是BrowsersIist配置中出现了错误。需要检查项目中的postcss.configjs或者package.json文件，找到Browserslist相关的配置项，并确保其正确性
+
+
+
 
 <b>前端开发环境工具链</b>
 
