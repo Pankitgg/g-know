@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a623196c-1686-4180-a71f-7b80824e6650" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/前端基础建设/npm包私仓建设.md" beforeDir="false" afterPath="$PROJECT_DIR$/前端基础建设/npm包私仓建设.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742452495594</updated>
-      <workItem from="1742452498416" duration="46000" />
+      <workItem from="1742452498416" duration="745000" />
     </task>
     <servers />
   </component>
